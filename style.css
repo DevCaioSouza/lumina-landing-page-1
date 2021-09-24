@@ -5,6 +5,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
 nav {
     background-color: #333;
     height: 120px;
@@ -175,18 +177,21 @@ footer {
         height: 50vh;
     }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        
+    }
 
     .content{
         top: 5%;
-        margin-top: 5px;
+        margin-top: 160px;
         margin-left: -15px;
         
     }
 
-    /*.content:not(.cabecalho){
-        display: flex;    
-        
-    }*/
+   
     
 
     .content .logo{
